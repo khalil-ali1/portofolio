@@ -1,12 +1,12 @@
-import './header.css'
+import "./header.css";
 
 const Header = () => {
   return (
-    <header className='flex'>
-      <button className='menu'>show modal</button>
-      <div/>
+    <header className="flex">
+      <button className="menu">show modal</button>
+      <div />
       <nav>
-      <ul className='flex'>
+        <ul className="flex">
           <li>
             <a href="#">About</a>
           </li>
@@ -22,13 +22,12 @@ const Header = () => {
           <li>
             <a href="#">Contact</a>
           </li>
-      </ul>
+        </ul>
       </nav>
       <button>light</button>
 
-      <div className='fixed'>
-        
-      <ul className='modal border'>
+      <div className="fixed">
+        <ul className="modal border">
           <li>
             <a href="#">About</a>
           </li>
@@ -44,17 +43,10 @@ const Header = () => {
           <li>
             <a href="#">Contact</a>
           </li>
-      </ul>
-
+        </ul>
       </div>
-      
-    
-      
-
-
-
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

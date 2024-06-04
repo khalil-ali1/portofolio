@@ -50,6 +50,11 @@ header .fixed{
     background-color:rgba(40, 40, 50, 0.9);
 }
 
+header .fixed ul.modal {
+
+}
+
+
 @media (max-width: 700px){
     header.flex nav{display: none;}
 
