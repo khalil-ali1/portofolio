@@ -3,6 +3,7 @@ import './header.css'
 const Header = () => {
   return (
     <header className='flex'>
+      <button className='menu'>show modal</button>
       <div/>
       <nav>
       <ul className='flex'>
