@@ -37,6 +37,7 @@ header button.menu{
     display: none;
 }
 
+/* Modal == pop up     */
 
 @media (max-width: 700px){
     header.flex nav{display: none;}

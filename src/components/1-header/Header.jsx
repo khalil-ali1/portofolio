@@ -25,6 +25,14 @@ const Header = () => {
       </ul>
       </nav>
       <button>light</button>
+
+      <div className='border fixed'>
+
+
+      </div>
+
+
+
     </header>
   )
 }
