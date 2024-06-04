@@ -1,12 +1,14 @@
 header.flex{
     justify-content: space-between;
     padding:0 2.5rem;
+    margin-top: 1.2rem;
 
 }
 header.flex nav{
     background-color: var(--bgHeader);
     padding: 0.77rem 1.6rem;
     border-radius: 25px;
+    box-shadow: 2px 2px 20px gray;
 }
 
 header ul.flex{
@@ -30,3 +32,10 @@ header ul li a:hover {
 header button{
     font-size: 1.2rem;
 }
+
+
+
+@media (max-width: 700px){
+    header.flex nav{display: none;}
+}
+    
