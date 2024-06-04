@@ -27,7 +27,7 @@ const Header = () => {
       <button>light</button>
 
       <div className="fixed">
-        <ul className="modal border">
+        <ul className="modal">
           <li>
             <a href="#">About</a>
           </li>
