@@ -39,6 +39,17 @@ header button.menu{
 
 /* Modal == pop up     */
 
+header .fixed{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+/* i can replace the 4 lines with inset=0;  */
+    
+    background-color:rgba(40, 40, 50, 0.9);
+}
+
 @media (max-width: 700px){
     header.flex nav{display: none;}
 
