@@ -37,6 +37,13 @@ header button.menu{
     display: none;
 }
 
+/*icon button*/
+header .icon-moon-o , header button.mode{
+    background-color: var(--bgHeader);
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
 /* Modal == pop up     */
 
 header .fixed{

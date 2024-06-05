@@ -33,7 +33,11 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <button className="icon-moon-o"/>
+
+      <button className="mode">
+      <span className="icon-moon-o"></span>
+      </button>
+      
 
       {showModal && (
         <div className="fixed">
