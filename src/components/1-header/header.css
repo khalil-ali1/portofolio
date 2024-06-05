@@ -46,7 +46,15 @@ header .icon-menu , header button.mode{
     justify-content: center;
     text-align: center;
     color: var(--subtitle );
-    border: 1px solid salmon;
+    border: 1px solid hsla(6, 32%, 48%, 0.377);
+  }
+
+
+  header .icon-menu:hover , header button.mode:hover{
+    color: var(--title );
+    border: 1px solid hsla(6, 32%, 48%, 0.849);
+
+
   }
 
 /* Modal == pop up     */
