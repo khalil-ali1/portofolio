@@ -10,7 +10,7 @@ const Header = () => {
       <button onClick={() => {
         setShowModal(true)
       }}
-        className="menu icon-menu" />
+        className="menu icon-menu flex" />
 
 
       <div />
@@ -34,7 +34,7 @@ const Header = () => {
         </ul>
       </nav>
 
-      <button className="mode">
+      <button className="mode flex">
       <span className="icon-moon-o"></span>
       </button>
       

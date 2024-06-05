@@ -38,10 +38,12 @@ header button.menu{
 }
 
 /*icon button*/
-header .icon-moon-o , header button.mode{
+header .icon-menu , header button.mode{
     background-color: var(--bgHeader);
     height: 2.5rem;
     width: 2.5rem;
+    justify-content: center;
+    text-align: center;
   }
 
 /* Modal == pop up     */
