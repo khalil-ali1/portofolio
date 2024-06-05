@@ -48,3 +48,5 @@ a{
 .border{
     border: 2px solid red;
 }
+
+button{all:unset}

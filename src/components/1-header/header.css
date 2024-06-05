@@ -50,7 +50,15 @@ header .fixed{
     background-color:rgba(40, 40, 50, 0.9);
 }
 
+@keyframes mymove {
+    0%   {scale : 0}
+    50%  {scale : 1.1 }
+    100% {scale : 1}
+    
+}
+
 header .fixed ul.modal {
+    animation: mymove 0.75s 1;
     width: 85%;
     margin-left: auto;
     margin-right: auto;
@@ -64,6 +72,14 @@ header .fixed ul.modal li {
     border-bottom: 1px solid var(--border);
     padding-bottom: 0.75rem;
     padding-top: 0.5rem;
+}
+
+
+header .fixed ul.modal li:first-child {
+    text-align: right;
+    border:none;
+    padding-bottom: 0;
+    padding-top: 0.2rem;
 }
 header .fixed ul.modal li:last-child {
     border: none;
