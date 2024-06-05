@@ -35,7 +35,7 @@ const Header = () => {
       {showModal && (
         <div className="fixed">
           <ul className="modal">
-            <li>
+            <li className="border">
               <button onClick={() => { setShowModal(false) }}>close</button>
             </li>
             <li>
