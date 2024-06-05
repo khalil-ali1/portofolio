@@ -60,7 +60,14 @@ header .fixed ul.modal {
     background-color: var(--secondry);
 
 }
-
+header .fixed ul.modal li {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.75rem;
+    padding-top: 0.5rem;
+}
+header .fixed ul.modal li:last-child {
+    border: none;
+}
 
 @media (max-width: 700px){
     header.flex nav{display: none;}
